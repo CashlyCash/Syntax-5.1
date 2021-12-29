@@ -1,0 +1,32 @@
+.thumbnail{
+    border-width: 5px;
+    border-color: blue;
+    border-radius: 8px;
+    margin-top: 2%;
+    box-shadow: 5px 5px 5px 5px gray;
+    margin-bottom: 20px;
+}
+
+.btn{
+    padding: 2px;
+    background-color: skyblue;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    cursor: pointer;
+    width: 80px;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+}
+
+.btn:hover{
+    padding: 2px;
+    background-color: skyblue;
+    color: rgb(255, 0, 0);
+    box-shadow: 1px 1px 1px 1px rgb(238, 113, 113);
+}
+
+.btn:active{
+    padding: 2px;
+    background-color: rgb(46, 120, 150);
+    color: rgb(0, 255, 0);
+    box-shadow: 1px 1px 1px 1px rgb(76, 233, 110);
+}
