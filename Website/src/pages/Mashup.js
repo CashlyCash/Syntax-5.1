@@ -39,8 +39,7 @@ const Mashup = ({ songs }) => {
                 <div class="column">
                     {error1 && (
                         <div>
-                            <h1>Oh No! An Error!</h1>
-                            <h2>{error1}</h2>
+                            <h1>Looks Like you havn't added a song here</h1>
                         </div>
                     )}
                     {loading1 && <h3>Loading...</h3>}
@@ -54,8 +53,7 @@ const Mashup = ({ songs }) => {
                 <div class="column">
                     {error2 && (
                         <div>
-                            <h1>Oh No! An Error!</h1>
-                            <h2>{error2}</h2>
+                            <h1>Looks Like you havn't added a song here</h1>
                         </div>
                     )}
                     {loading2 && <h3>Loading...</h3>}
